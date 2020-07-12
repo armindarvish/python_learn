@@ -51,7 +51,7 @@ fig2.show()
 
 
 x_natexp = np.linspace(1, 10, 50)
-y_natexp = 3*(np.exp(3*x_natexp))+10
+y_natexp = 5*(np.exp(2.5*x_natexp))+10
 y_natexp_noise = 0.1*(np.random.normal(len(x_natexp)))
 y_natexp += y_natexp_noise
 
